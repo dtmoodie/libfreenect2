@@ -78,6 +78,16 @@ make && make install
 6. Run the program
 ./bin/Protonect
 
+==== Ubuntu 14.04
+1. Install dependencies
+sudo apt-get install git build-essentials cmake cmake-curses-gui libXmu-dev libXi-dev libgl-dev dos2unix xorg-dev libglu1-mesa-dev libtool automake libudev-dev libgtk2.0-dev pkg-config libjpeg-turbo8-dev libturbojpeg
+
+2. Run dependency install script
+./depends/install_ubuntu.sh
+
+
+
+
 ==== Other operating systems
 
 I'm not sure, but look for libusbx installation instructions for your OS. Figure out how to attach the driver to the Xbox NUI Sensor composite parent device, VID 045E PID 02C4, then contribute your procedure.
