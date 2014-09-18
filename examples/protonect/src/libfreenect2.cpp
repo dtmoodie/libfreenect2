@@ -289,7 +289,7 @@ public:
             }
             else
             {
-              std::cout << "[Freenect2Impl] failed to open Kinect v2 " << PrintBusAndDevice(dev) << "!" << std::endl;
+              std::cout << "[Freenect2Impl] failed to open Kinect v2, are you running as root?" << PrintBusAndDevice(dev) << "!" << std::endl;
             }
           }
         }
